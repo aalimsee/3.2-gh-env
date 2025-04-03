@@ -11,3 +11,12 @@ Use the following command, replacing the placeholders with your actual values:
 # Example
     ```gh secret set AWS_ACCESS_KEY_ID --body AKIATXF4JQPH2AEBPPOO --repo aalimsee/3.2-gh-env```
     ```gh secret set AWS_SECRET_ACCESS_KEY --body <secret-value> --repo aalimsee/3.2-gh-env```
+
+
+# Using the gh CLI:
+Use the gh environments create command, specifying the environment name and optional settings. 
+Code
+
+        gh environments create <environment-name> --repo <owner/repo>
+Replace <environment-name> with the desired name for your environment. 
+Replace <owner/repo> with the repository's full name (e.g., my-org/my-repo). 
